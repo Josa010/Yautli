@@ -209,7 +209,7 @@
 
 	<?php if (empty($siguientePaso)) {?>
 		
-		<form action="registroClientes.php" method="POST" target="_self">
+		<form action="registroClientes.php" method="POST" target="_self" data-netlify="true">
 		<input type="hidden" name="siguientePaso" value="2">
 		<table align="center" border="0" cellpadding="0" cellspacing="0">
 		    <tr>
