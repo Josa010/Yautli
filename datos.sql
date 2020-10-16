@@ -10,6 +10,7 @@ CREATE TABLE usuarios(
   apellidoPaterno  VARCHAR(45) NOT NULL,
   apellidoMaterno VARCHAR(45) DEFAULT NULL,
   correoElectronico  VARCHAR(200) NOT NULL,
+  nivel VARCHAR(100) NOT NULL,
   usuario  VARCHAR(45) NOT NULL,
   pass  VARCHAR(45) NOT NULL,
   fechaNacimiento DATE NOT NULL,
