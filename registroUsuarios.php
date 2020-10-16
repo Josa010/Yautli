@@ -1,8 +1,10 @@
 <?php
 
+	// Autor: Josafat Muñoz Valverde 5oG
 	// Mi trabajo lleva un boton para regresar al index porque hice un indice.
 	// los estilos no van a cargar tampoco
-	// Tambien subí mi pagina el url es: https://josafat.herokuapp.com
+	// Tambien subí mi pagina, el url es: https://josafat.herokuapp.com
+	// Tambien lo subí a github, el url es: https://github.com/Josa010/Yautli
 
 	if (!empty($_POST['nombre'])) {
 
