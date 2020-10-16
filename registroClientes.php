@@ -188,7 +188,8 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Registro de Clientes</title>
+	<title>Registro de Clientes</title>
+	
 </head>
 <body>
 	<h1 align="center">Registro de Clientes</h1>
