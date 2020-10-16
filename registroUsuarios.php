@@ -1,8 +1,8 @@
 <?php
 
-	// $_POST['nombre']
-	// $_GET['nombre']
-	// $_REQUEST['nombre']
+	// Mi trabajo lleva un boton para regresar al index porque hice un indice.
+	// los estilos no van a cargar tampoco
+	// Tambien subí mi pagina el url es: https://josafat.herokuapp.com
 
 	if (!empty($_POST['nombre'])) {
 
@@ -203,14 +203,20 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Registro de usuarios</title>
+	<link rel="stylesheet" href="css/registroUsuarios.css">
 </head>
 <body>
+
+	<div id="boton-regresar">
+		<a href="index.html" id="regresar">Regresar al indice</a>
+	</div>
+
 	<h1 align="center">Registro de usuarios</h1>
 
 	<?php
 		if (!empty($errores)) {
 			foreach($errores as $error){ // recorremos el arreglo
-				echo "* ". $error. "<br>";
+				echo "<p class='error'>* ". $error. "</p><br>";
 			}
 		}
 	?>
@@ -270,9 +276,6 @@
 
 	<?php }	?>
 	
-
-
-
 	
 </body>
 </html>
