@@ -40,3 +40,17 @@ CREATE TABLE clientes(
   PRIMARY KEY(idCliente)
 
 );
+
+CREATE TABLE archivos(
+
+  id  Int unsigned NOT NULL AUTO_INCREMENT,
+  nombreReferencia VARCHAR(45) NOT NULL, 
+  nombreArchivo  VARCHAR(45) NOT NULL,
+  fModificacion TIMESTAMP NOT NULL DEFAULT current_timestamp,
+  activo CHAR(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY(id)
+
+);
+ $miArchivo=$_POST['miArchivo'];
+            $ext = pathinfo($miArchivo, PATHINFO_EXTENSION);
+            echo $ext;

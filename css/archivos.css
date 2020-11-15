@@ -1,0 +1,58 @@
+*{
+    color: white;
+}
+
+nav{
+    background-color: #375A7F;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #375A7F;
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+form{
+    text-align: center;
+}
+
+.texto{
+    font-size: 17px;
+}
+
+
+.archivo{
+    background-color:  #375A7F;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #ccc;
+    margin: 0px auto;
+    width: 390px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+}
+
+input[type="file"]{
+    background-color: #375A7F;
+    border-color: #ccc;
+    font-size: 17px;
+    padding: 5px;
+    width: auto;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.test{
+    padding: 8px;
+    border-right: 1px solid #ccc;
+}
+
+.fa-folder-open{
+    font-size: 30px;
+    margin: 0px auto;
+}
+
+
